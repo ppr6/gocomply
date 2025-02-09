@@ -59,17 +59,17 @@ Format the report with:
 3. Regulatory Compliance Gaps
 4. Recommended Actions
 
-Under "Risk Assessment", organize findings into these categories:
+Under "Risk Assessment", organize findings into:
 ### High Risk Findings
-(List high-risk items or write "None identified" if no high risks found)
+(List high-risk items or "None identified")
 
 ### Medium Risk Findings
-(List medium-risk items or write "None identified" if no medium risks found)
+(List medium-risk items or "None identified")
 
 ### Low Risk Findings
-(List low-risk items or write "None identified" if no low risks found)
+(List low-risk items or "None identified")
 
-Write all recommended actions in passive voice (e.g., "The clause should be corrected" instead of "Correct the clause").
+Format all recommendations as: "The [item] should be [action]"
 
-Use markdown formatting for better readability.
+Use markdown formatting.
 """ 
