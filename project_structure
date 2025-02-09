@@ -1,0 +1,13 @@
+financial-contract-analyzer/
+├── .env
+├── .gitignore
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── chain_steps.py
+│   ├── config.py
+│   ├── llm.py
+│   ├── parsers.py
+│   ├── prompts.py
+│   └── main.py
+└── README.md 
