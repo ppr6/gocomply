@@ -11,5 +11,7 @@ streamlit>=1.32.0  # For web interface
 
 # Document processing
 python-docx>=0.8.11  # For Word documents
-PyPDF2>=3.0.0  # For PDF files
-python-magic-bin>=0.4.14  # For MIME type detection (Windows) 
+PyPDF2>=3.0.0  # For PDF files  # For MIME type detection (Windows) 
+python-magic-bin>=0.4.14 ; platform_system == "Windows"
+python-magic>=0.4.15 ; platform_system != "Windows"
+
